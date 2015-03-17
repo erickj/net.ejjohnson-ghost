@@ -11,6 +11,7 @@ StandardError=syslog
 SyslogIdentifier=ghost
 SyslogFacility=local0
 
+Environment=GHOST_CONFIG=/opt/ghost-config.js
 WorkingDirectory=/opt/ghost
 ExecStart=/usr/bin/npm start --production
 
