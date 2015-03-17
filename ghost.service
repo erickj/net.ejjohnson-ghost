@@ -12,8 +12,7 @@ SyslogIdentifier=ghost
 SyslogFacility=local0
 
 WorkingDirectory=/opt/ghost
-Environment=NODE_ENV=production
-ExecStart=/usr/bin/npm start
+ExecStart=/usr/bin/npm start --production
 
 Restart=always
 
